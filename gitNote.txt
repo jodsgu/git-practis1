@@ -19,3 +19,24 @@ git rm --cached ==> remove from stage area..
 mylog.log   -->  means je khanei mylog.log pabe ignore koro
 *.log   ->>mane .log file pele ignore koro
 
+//branch
+git branch feature1  ==> create a feature1 branch
+git branch   =>> show how many branch
+git checkout master  --> switch to master branch
+git checkout -b feature2   -->create feature2 bracch and go to feature2 branch
+git merge feature1   ===> before merge got to master branch use "git checkout master"
+
+
+
+git remote add origin git@github.com:jodsgu/git-practis1.git
+git remote  
+  o/p==>  origin
+git remote -v   
+  o/p==>  origin  git@github.com:jodsgu/git-practis1.git (fetch)
+          origin  git@github.com:jodsgu/git-practis1.git (push)
+
+git push -u origin master    ===>>   means origin e master branch push koro
+
+//branch featur1 fush
+git checkout feature1
+git push -u origin feature1
