@@ -1,3 +1,6 @@
+git add .  ===> move to staging area ready for commite
+git commit -m "message"  ===>commite 
+
 git checkout index.html   --> last commite jeta 6ilo seta fire asbe only index.html..
 git checkout -f   --->  sob file last commite theke fire asbe..
 git diff    ---> jody index.html file <body>  to <body joy>  kori and index.js "add ." na kori then diff kaj korbe..
@@ -15,3 +18,4 @@ git rm --cached ==> remove from stage area..
 /mylog.log  --->  means root e mylog.log filr pele ignore koro
 mylog.log   -->  means je khanei mylog.log pabe ignore koro
 *.log   ->>mane .log file pele ignore koro
+
