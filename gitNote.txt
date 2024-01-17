@@ -1,0 +1,17 @@
+git checkout index.html   --> last commite jeta 6ilo seta fire asbe only index.html..
+git checkout -f   --->  sob file last commite theke fire asbe..
+git diff    ---> jody index.html file <body>  to <body joy>  kori and index.js "add ." na kori then diff kaj korbe..
+
+
+add . -->  mane stage arrea file a6e now ready for commit..
+git diff   --> working copy vs stage compare kore..tai "add ." korle stage area jai..after add . korle diff kaj kore na..
+
+git log -p -2   ==> show two commite..
+
+git rm  ===>  remove from stage and hard disk
+git rm --cached ==> remove from stage area..
+
+.gitignore
+/mylog.log  --->  means root e mylog.log filr pele ignore koro
+mylog.log   -->  means je khanei mylog.log pabe ignore koro
+*.log   ->>mane .log file pele ignore koro
